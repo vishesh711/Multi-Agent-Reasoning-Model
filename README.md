@@ -1,12 +1,6 @@
-# Multi-Agent Reasoning
+# Multi-Agent Reasoning Model
 
-A Python-based solution that employs **Multi-Agent Reasoning**, where multiple AI agents collaborate to generate optimal responses to user prompts. By simulating interactions between agents and integrating the **Swarm Framework for Intelligence**, the system enhances reasoning capabilities to deliver accurate and refined answers. Custom agents can be added via JSON, allowing you to customize their personalities, interaction styles, and more. The system leverages **Prompt Caching** to optimize performance and reduce latency and costs for repeated prompts.
-
----
-
-![Multi-Agent Reasoning Banner](img/reasoningbanner.png)
-
----
+A Python-based solution that employs **Multi-Agent Reasoning Model**, where multiple AI agents collaborate to generate optimal responses to user prompts. By simulating interactions between agents and integrating the **Swarm Framework for Intelligence**, the system enhances reasoning capabilities to deliver accurate and refined answers. Custom agents can be added via JSON, allowing you to customize their personalities, interaction styles, and more. The system leverages **Prompt Caching** to optimize performance and reduce latency and costs for repeated prompts.
 
 ## Table of Contents
 
@@ -44,7 +38,7 @@ A Python-based solution that employs **Multi-Agent Reasoning**, where multiple A
 
 ## Overview
 
-The **Multi-Agent Reasoning** script creates an interactive chatbot experience where multiple AI agents collaborate through a structured reasoning process to provide optimal answers. Each agent brings unique perspectives and expertise, and through iterative steps of discussion, verification, critique, and refinement, they converge on a high-quality, accurate response.
+The **Multi-Agent Reasoning Model** script creates an interactive chatbot experience where multiple AI agents collaborate through a structured reasoning process to provide optimal answers. Each agent brings unique perspectives and expertise, and through iterative steps of discussion, verification, critique, and refinement, they converge on a high-quality, accurate response.
 
 Additionally, the system integrates the **Swarm Framework for Intelligence** to enhance collaboration among agents. Swarm allows agents to coordinate efficiently, leveraging collective intelligence to solve complex tasks.
 
@@ -82,13 +76,13 @@ Users can also **chat with individual agents**. Agents are aware of each other, 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/AdieLaine/multi-agent-reasoning.git
+   git clone https://github.com/AdieLaine/multi-agent-reasoning-Model.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd multi-agent-reasoning
+   cd multi-agent-reasoning-model
    ```
 
 3. **Install the required packages**:
@@ -128,7 +122,7 @@ Upon running the script, you will be presented with a menu:
 
 ```
 ═════════════════════════════════════════════════════════════════════════════════════════════
-║                        Multi-Agent Reasoning Chatbot                                   ║
+║                        Multi-Agent Reasoning Model Chatbot                                   ║
 ═════════════════════════════════════════════════════════════════════════════════════════════
 Please select an option:
 1. Chat with an agent
@@ -712,8 +706,6 @@ The code is structured to facilitate both the reasoning process and chat interac
 ## Visual Flow of the Reasoning Process
 
 Below is an updated flowchart reflecting the new logic, including the chat mode, agents' awareness of each other, token usage transparency, prompt caching, and Swarm integration:
-
-![Reasoning Process Flowchart](img/reasoningflow.png)
 
 ---
 
