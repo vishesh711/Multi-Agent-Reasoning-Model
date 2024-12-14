@@ -298,8 +298,6 @@ The core of the chatbot's functionality lies in the reasoning process employed b
 
 Swarm focuses on making agent coordination and execution lightweight, highly controllable, and easily testable. It achieves this through two primitive abstractions: **Agents** and **Handoffs**. An Agent encompasses instructions and tools and can, at any point, choose to hand off a conversation to another Agent.
 
-![Swarm Integration](img/swarm.png)
-
 ### How It Works
 
 - **Swarm Client Initialization**: The system initializes a Swarm client to manage agent interactions.
