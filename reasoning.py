@@ -7,11 +7,15 @@ from concurrent.futures import ThreadPoolExecutor
 from colorama import init, Fore, Style
 import tiktoken  # For accurate token counting
 from openai import OpenAI
+from dotenv import load_dotenv  # Add dotenv import
 
 from swarm_middle_agent import (
     swarm_middle_agent_interface,
     swarm_chat_interface
 )  # Import the Swarm interfaces
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize colorama
 init(autoreset=True)
@@ -69,7 +73,7 @@ logging.basicConfig(
 # Initialize the OpenAI client
 api_key = os.environ.get("OPENAI_API_KEY")
 if not api_key:
-    logging.error("OpenAI API key not found in environment variable 'OPENAI_API_KEY'. Please set it and rerun the script.")
+    logging.error("OpenAI API key not found in environment variable 'OPENAI_API_KEY'. Please check your .env file or set it directly and rerun the script.")
     exit(1)
 
 client = OpenAI(api_key=api_key)

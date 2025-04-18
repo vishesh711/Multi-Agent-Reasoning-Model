@@ -1,0 +1,5 @@
+openai>=1.0.0
+colorama>=0.4.6
+tiktoken>=0.3.3
+python-dotenv>=1.0.0
+swarm>=0.1.0 
