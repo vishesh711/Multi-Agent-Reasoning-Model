@@ -758,7 +758,6 @@ multi-agent-reasoning/
 ├── reasoning.py
 ├── swarm_middle_agent.py
 ├── agents.json
-├── LICENSE
 ├── .gitignore
 └── img/
     ├── reasoningbanner.png
