@@ -5,6 +5,10 @@ import logging
 import json
 from colorama import Fore, Style, init
 from swarm import Agent, Swarm  # Ensure you have the 'swarm' package installed or adjust as needed
+from dotenv import load_dotenv  # Add dotenv import
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize colorama
 init(autoreset=True)
